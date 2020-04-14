@@ -64,7 +64,7 @@ for dev_item in devices_data:
     for model in devices_data[dev_item]:
         try:
             query = model
-            output_file.write('Query number:' + count + '\n')
+            output_file.write('Query number:' + str(count) + '\n')
             count = count + 1
 
             # Use the count() method because it doesn't return results and doesn't require a paid API plan
