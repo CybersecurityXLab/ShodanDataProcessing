@@ -1,6 +1,6 @@
 # Author: Dr. X
-# look for specific model exploits
-# count how many exploits of a specific type
+# look for open ports based on list ports.csv or ports_small.csv
+# count number of ports per type of device, write to file
 
 import shodan
 import time
