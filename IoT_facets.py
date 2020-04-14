@@ -61,39 +61,39 @@ output_file = open(output_file_name, 'w')
 count = 1
 for dev_item in devices_data:
     output_file.write('Type of device: ' + dev_item + '\n')
-        for model in devices_data[dev_item]:
-            try:
-                query = model
-                output_file.write('Query number:' + count + '\n')
-                count = count + 1
+    for model in devices_data[dev_item]:
+        try:
+            query = model
+            output_file.write('Query number:' + count + '\n')
+            count = count + 1
 
-                # Use the count() method because it doesn't return results and doesn't require a paid API plan
-                # And it also runs faster than doing a search().
-                result = api.count(query, facets=FACETS)
+            # Use the count() method because it doesn't return results and doesn't require a paid API plan
+            # And it also runs faster than doing a search().
+            result = api.count(query, facets=FACETS)
 
-                output_file.write('Shodan Summary Information \n')
-                output_file.write('Query: %s' % query)
+            output_file.write('Shodan Summary Information \n')
+            output_file.write('Query: %s' % query)
+            output_file.write('\n')
+            output_file.write('Total Results: %s\n' % result['total'])
+            output_file.write('\n')
+
+            # Print the summary info from the facets
+            for facet in result['facets']:
+                output_file.write(FACET_TITLES[facet] + '\n')
+
+                for term in result['facets'][facet]:
+                    output_file.write('%s: %s' % (term['value'], term['count'])+ '\n')
+
+                # Print an empty line between summary info
                 output_file.write('\n')
-                output_file.write('Total Results: %s\n' % result['total'])
-                output_file.write('\n')
+            # model query delimiter
+            output_file.write('==========================================================\n')
 
-                # Print the summary info from the facets
-                for facet in result['facets']:
-                    output_file.write(FACET_TITLES[facet] + '\n')
-
-                    for term in result['facets'][facet]:
-                        output_file.write('%s: %s' % (term['value'], term['count'])+ '\n')
-
-                    # Print an empty line between summary info
-                    output_file.write('\n')
-                # model query delimiter
-                output_file.write('==========================================================\n')
-
-            except Exception as e:
-                print('Error: %s' % e)
-                sys.exit(1)
-        # device type query delimiter
-        output_file.write('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n')
+        except Exception as e:
+            print('Error: %s' % e)
+            sys.exit(1)
+    # device type query delimiter
+    output_file.write('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n')
         
 output_file.close()
 csv_file_devs.close()
