@@ -1,0 +1,4 @@
+Device Type, Device Model, FTP, Telnet, SMTP, DNS, HTTP
+webcams,  TP-Link, 1351413, 9, 8, 6, 8, 7, 9
+webcams,  axis, 15426, 86, 101, 95, 188, 6, 7
+routers,  netgear, 142346, 15, 6, 15, 9, 6, 15
