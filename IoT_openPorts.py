@@ -5,24 +5,13 @@
 import shodan
 import time
 import datetime
-import csv
+import Shodan_setup 
 
+# Configuration
 api = Shodan_setup.get_API_key()
 
 # read devices from file
-input_file_devices = './hosts/devices_small.csv'
-input_file_ports = './attributes/ports_small.csv'
-devices_data = dict()
-with open(input_file_devices, 'r') as csv_file_devs:
-    reader = csv.reader(csv_file_devs)
-    for row in reader:
-        devices_data[row[0]] = (row[1:])
-
-ports_data = dict()
-with open(input_file_ports, 'r') as csv_file_ports:
-    reader = csv.reader(csv_file_ports)
-    for row in reader:
-        ports_data[row[0]] = (row[1:])
+devices_data, exploits_data, ports_data = Shodan_setup.read_input_files()
 
 output_file_name = './data/ports' + str(datetime.datetime.now()) + '.csv'
 output_file = open(output_file_name, 'w')
@@ -55,5 +44,3 @@ for dev_item in devices_data:
                 output_file.write('\n')
 
 output_file.close()
-csv_file_devs.close()
-csv_file_ports.close()

@@ -1,0 +1,202 @@
+Type of device: webcams
+Query number:1
+Shodan Summary Information 
+Query:  TP-Link
+Total Results: 1322902
+
+Top 5 Domains
+tpgi.com.au: 698245
+iinet.net.au: 49892
+t-ipconnect.de: 28390
+comindico.com.au: 23706
+telecomitalia.it: 23673
+
+Top 3 Countries
+AU: 855547
+DE: 48558
+BR: 39634
+
+Top 5 Common Platform Enumeration
+cpe: 268
+a: 255
+sysoev: 85
+nginx: 82
+server: 63
+
+Top 10 Ports
+5060: 981193
+80: 123490
+8080: 116928
+1723: 11081
+8888: 8726
+8090: 8566
+9090: 8234
+8081: 6344
+88: 4571
+21: 2956
+
+Top 5 Devices
+WAP: 99492
+switch: 339
+router: 28
+
+Top 5 Organizations
+TPG Internet: 732439
+iiNet Limited: 71777
+TM Net: 30096
+Deutsche Telekom AG: 28367
+Telecom Italia: 23154
+
+Top 10 Operating Systems
+Linux 2.6.x: 2345
+Linux 3.x: 31
+Linux 2.4-2.6: 18
+Unix: 8
+Windows 7 or 8: 2
+
+Top 5 Autonomous Systems
+as7545: 727589
+as1290: 40892
+as4739: 37059
+as4788: 30097
+as3320: 28478
+
+==========================================================
+Query number:2
+Shodan Summary Information 
+Query:  axis
+Total Results: 14849
+
+Top 5 Domains
+myvzw.com: 1275
+wanadoo.fr: 1067
+comcastbusiness.net: 356
+spcsdns.net: 342
+rr.com: 196
+
+Top 3 Countries
+US: 5542
+FR: 1555
+RU: 710
+
+Top 5 Common Platform Enumeration
+cpe: 2942
+a: 2941
+server: 2886
+http: 2875
+apache: 2875
+
+Top 10 Ports
+21: 9750
+8081: 1452
+10000: 631
+8083: 519
+443: 274
+5001: 270
+3001: 182
+23: 106
+9001: 83
+1900: 78
+
+Top 5 Devices
+webcam: 7948
+print server: 11
+media device: 8
+router: 2
+firewall: 2
+
+Top 5 Organizations
+Verizon Wireless: 1277
+Orange: 1101
+Comcast Business: 370
+Sprint PCS: 275
+Spectrum Business: 232
+
+Top 10 Operating Systems
+Windows 6.1: 5
+Unix: 3
+QTS: 2
+Windows Server 2016 Standard 14393: 1
+Windows Server 2008: 1
+Windows 10 or Server 12: 1
+Linux 2.6.x: 1
+FreeBSD 8.x-9.x: 1
+
+Top 5 Autonomous Systems
+as22394: 1250
+as3215: 1110
+as7922: 607
+as7018: 370
+as8151: 186
+
+==========================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type of device: routers
+Query number:3
+Shodan Summary Information 
+Query:  netgear
+Total Results: 137089
+
+Top 5 Domains
+comcast.net: 12066
+ertelecom.ru: 8430
+rr.com: 5986
+comhem.se: 5959
+cox.net: 3936
+
+Top 3 Countries
+US: 54542
+RU: 10508
+GB: 5658
+
+Top 5 Common Platform Enumeration
+cpe: 6463
+a: 6350
+proftpd: 4900
+g: 2818
+php: 1001
+
+Top 10 Ports
+8443: 56818
+8080: 37800
+7547: 11050
+21: 7162
+80: 6450
+443: 1749
+8081: 1551
+1900: 1163
+2323: 973
+1024: 870
+
+Top 5 Devices
+WAP: 13503
+switch: 41
+router: 4
+print server: 4
+
+Top 5 Organizations
+Comcast Cable: 12360
+Spectrum: 11790
+ER-Telecom: 8331
+Com Hem: 5463
+Orange: 2898
+
+Top 10 Operating Systems
+Linux 2.6.x: 701
+Linux 2.4.x: 173
+Unix: 71
+Windows 6.1: 11
+Linux 3.x: 6
+Windows XP: 1
+Windows Server 2003: 1
+Linux 2.4-2.6: 1
+
+Top 5 Autonomous Systems
+as7922: 13902
+as39651: 5624
+as20115: 4729
+as22773: 3964
+as3269: 2074
+
+==========================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
