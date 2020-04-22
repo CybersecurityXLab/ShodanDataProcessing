@@ -1,0 +1,2 @@
+Device Type, Device Model, FTP, SSH, Telnet, SMTP, DNS, HTTP, Siemens, POP3, ONCRPC, SFTP, NTP, Netbios, SNMP, SNMPTrap, BGP, IMAP, LDAP, HTTPS, Modbus, RPC, 
+webcams,  TP-Link, 1263372, 7, 9, 6, 5, 6, 6, 7, 1, 5, 5, 5, 5, 6, 1, 1, 1, 1, 3590, 1, 5, 0, 10 axis, 15090, 79, 82, 84, 191, 4, 5, 0, 4, 4, 4, 4, 5, 0, 0, 0, 0, 9746, 0, 4, 0, 9723

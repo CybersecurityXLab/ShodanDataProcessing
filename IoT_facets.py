@@ -10,14 +10,10 @@ import shodan
 import sys
 import csv
 import datetime
+import Shodan_setup 
 
 # Configuration
-f = open("myKey.txt")
-myKey = f.readline()
-SHODAN_API_KEY = str(myKey)
-
-api = shodan.Shodan(SHODAN_API_KEY)
-f.close()
+api = Shodan_setup.get_API_key()
 
 # The list of properties we want summary information on
 FACETS = [

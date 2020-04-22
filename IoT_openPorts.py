@@ -7,12 +7,7 @@ import time
 import datetime
 import csv
 
-f = open("myKey.txt")
-myKey = f.readline()
-SHODAN_API_KEY = str(myKey)
-
-api = shodan.Shodan(SHODAN_API_KEY)
-f.close()
+api = Shodan_setup.get_API_key()
 
 # read devices from file
 input_file_devices = './hosts/devices_small.csv'

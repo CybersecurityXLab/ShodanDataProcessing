@@ -1,0 +1,190 @@
+Shodan Summary Information 
+Query:  TP-Link
+Total Results: 1212723
+
+Top 5 Domains
+tpgi.com.au: 627252
+iinet.net.au: 46849
+t-ipconnect.de: 25458
+comindico.com.au: 21754
+telecomitalia.it: 20955
+
+Top 3 Countries
+AU: 773933
+DE: 42974
+BR: 35849
+
+Top 5 Common Platform Enumeration
+cpe: 264
+a: 248
+server: 73
+sysoev: 65
+nginx: 58
+
+Top 5 Autonomous Systems
+as7545: 546651
+as1290: 96512
+as4739: 79027
+as4788: 27167
+as3320: 25548
+
+Top 5 Devices
+WAP: 96739
+switch: 354
+router: 30
+
+Top 5 Organizations
+TPG Internet: 651303
+iiNet Limited: 67391
+TM Net: 27167
+Deutsche Telekom AG: 25233
+Telecom Italia: 15541
+
+Top 10 Operating Systems
+Linux 2.6.x: 2467
+Linux 3.x: 35
+Linux 2.4-2.6: 23
+Unix: 9
+
+Top 10 Ports
+5060: 887030
+80: 117022
+8080: 115766
+1723: 10331
+8090: 8245
+8888: 7823
+9090: 7741
+8081: 5563
+8000: 4544
+88: 4239
+
+Shodan Summary Information 
+Query:  axis
+Total Results: 14482
+
+Top 5 Domains
+myvzw.com: 1255
+wanadoo.fr: 1004
+comcastbusiness.net: 378
+spcsdns.net: 364
+rr.com: 201
+
+Top 3 Countries
+US: 5436
+FR: 1475
+RU: 777
+
+Top 5 Common Platform Enumeration
+cpe: 2756
+a: 2755
+server: 2702
+http: 2694
+apache: 2694
+
+Top 5 Autonomous Systems
+as22394: 1179
+as3215: 1057
+as7922: 602
+as7018: 367
+as3651: 251
+
+Top 5 Devices
+webcam: 7895
+print server: 9
+media device: 7
+router: 5
+firewall: 2
+
+Top 5 Organizations
+Verizon Wireless: 1256
+Orange: 1046
+Comcast Business: 407
+Sprint PCS: 340
+Spectrum Business: 182
+
+Top 10 Operating Systems
+Windows 6.1: 4
+QTS: 4
+Unix: 3
+Windows Server 2016 Standard 14393: 1
+Windows 5.1: 1
+Windows 10 or Server 12: 1
+Linux 3.x: 1
+Linux 2.6.x: 1
+
+Top 10 Ports
+21: 9606
+8081: 1368
+10000: 626
+8083: 486
+443: 255
+5001: 250
+3001: 179
+23: 102
+8089: 81
+9001: 74
+
+Shodan Summary Information 
+Query:  netgear
+Total Results: 133086
+
+Top 5 Domains
+comcast.net: 11645
+ertelecom.ru: 8458
+comhem.se: 6060
+rr.com: 5591
+cox.net: 3983
+
+Top 3 Countries
+US: 52855
+RU: 10371
+GB: 6149
+
+Top 5 Common Platform Enumeration
+cpe: 6074
+a: 5970
+proftpd: 4584
+g: 2549
+php: 952
+
+Top 5 Autonomous Systems
+as7922: 13382
+as39651: 4497
+as20115: 4179
+as22773: 4173
+as3215: 2111
+
+Top 5 Devices
+WAP: 13538
+switch: 39
+router: 8
+print server: 5
+
+Top 5 Organizations
+Comcast Cable: 11919
+Spectrum: 10988
+ER-Telecom: 7576
+Com Hem: 5592
+Orange: 2686
+
+Top 10 Operating Systems
+Linux 2.6.x: 642
+Linux 2.4.x: 201
+Unix: 63
+Windows 6.1: 11
+Linux 3.x: 8
+Windows XP: 4
+Linux 2.4-2.6: 2
+
+Top 10 Ports
+8443: 53485
+8080: 38214
+7547: 10758
+21: 6744
+80: 6270
+443: 1894
+8081: 1511
+1900: 1098
+1024: 1059
+2323: 890
+
